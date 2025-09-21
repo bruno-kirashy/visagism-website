@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const App = () => {
   return (
-      <div className="w-screen h-auto bg-[#1b1b1b] flex justify-center items-center font-google-sans-code font-light">
+      <div className="w-screen h-auto bg-[#1b1b1b] flex justify-center items-center font-google-sans-code font-light overflow-y-hidden">
         <Header />
         <section className="w-full h-screen flex flex-col items-center justify-center overflow-x-auto">
             <div className="w-full h-full flex justify-center items-center flex-col relative overflow-x-hidden">

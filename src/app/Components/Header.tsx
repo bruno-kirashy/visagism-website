@@ -11,12 +11,12 @@ export const Header = () => {
     }
 
     return (
-        <section className={`w-full py-3 lg:px-40 md:px-10 px-5 fixed z-50 top-0 bg-black/10 backdrop-blur-md border-b-1 border-amber-300/100 flex items-center justify-between`}>
+        <section className={`w-full py-3 lg:px-30 md:px-8 px-5 fixed z-50 top-0 bg-black/10 backdrop-blur-md border-b-1 border-amber-300/100 flex items-center justify-between`}>
             <Link href="/" className="text-[18px] md:text-2xl mr-3 cursor-pointer hover:scale-110 transition-all duration-300">
                 VisagismWeb
             </Link>
-            <nav className="flex lg:gap-6 md:gap-6 gap-2 justify-center items-center text-[17px]">
-                <nav className="md:flex gap-6 hidden font-notosans">
+            <nav className="flex lg:gap-6 md:gap-4 gap-2 justify-center items-center text-[17px]">
+                <nav className="md:flex lg:gap-6 md:gap-3 hidden font-notosans">
                     <Link href="/" className="cursor-pointer transition-all duration-300 hover:scale-110">Home</Link>
                     <Link href="/services" className="cursor-pointer transition-all duration-300 hover:scale-110">Services</Link>
                     <Link href="/gallery" className="cursor-pointer transition-all duration-300 hover:scale-110">Gallery</Link>
@@ -25,14 +25,14 @@ export const Header = () => {
                 </nav>
                 
                 <Link href={'/contact'}>
-                    <button className="lg:px-4 lg:py-2  md:px-4 md:py-2 md:mr-5  px-1 py-1 mr-5 text-[18px] md:text[18px] cursor-pointer bg-gradient-to-r from-amber-500 to-amber-300 rounded-md text-black font-bold hover:scale-105 transition-all duration-300">
+                    <button className="lg:py-2  md:px-4 md:py-2  px-1 py-1 text-[18px] md:text[18px] cursor-pointer bg-gradient-to-r from-amber-500 to-amber-300 rounded-md text-black font-bold hover:scale-105 transition-all duration-300">
                         Book Now
                     </button>
                 </Link>
                 
             
 
-                <div onClick={() => setMenuMobileOpen(!menuMobileOpen)} className="cursor-pointer md:hidden">
+                <div onClick={() => setMenuMobileOpen(!menuMobileOpen)} className="ml-5 cursor-pointer md:hidden">
                     <TextAlignJustify className="text-amber-300 scale-200" />
                 </div>
                 
