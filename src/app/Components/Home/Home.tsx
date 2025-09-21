@@ -8,10 +8,10 @@ export const Home = () => {
                 src="/Images/Home.jpg" alt="" 
                 />
                 
-                <h1 className="md:text-8xl text-4xl font-bold text-center md:m-10 m-5 mx-2 z-20 cursor-pointer">
+                <h1 className="md:text-8xl text-4xl font-google-sans-code  text-center md:m-10 m-5 mx-2 z-20 cursor-pointer">
                     Experience Timeless Beauty
                 </h1>
-                <p className="md:w-5xl md:text-2xl w-auto mx-2 text-center  z-20 cursor-pointer">
+                <p className="lg:w-5xl md:w-3xl md:text-2xl w-auto mx-2 text-center  z-20 cursor-pointer">
                     Discover a sanctuary where artistry meets rejuvenation. We craft bespoke experiences designed to enhance your natural radiance and leave you feeling uniquely you.
                 </p>
                 <div className="flex md:flex-row flex-col gap-6 m-15 z-20">
