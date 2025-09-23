@@ -12,7 +12,7 @@ export const Header = () => {
 
     return (
         <section className={`w-full py-3 lg:px-30 md:px-8 px-5 fixed z-50 top-0 bg-black/10 backdrop-blur-md border-b-1 border-amber-300/100 flex items-center justify-between`}>
-            <Link href="/" className="text-[18px] md:text-2xl mr-3 cursor-pointer hover:scale-110 transition-all duration-300">
+            <Link href="/" className="bg-gradient-to-r from-amber-300  to-amber-600 bg-clip-text text-transparent font-bold text-[18px] md:text-2xl mr-3 cursor-pointer hover:scale-110 transition-all duration-300">
                 VisagismWeb
             </Link>
             <nav className="flex lg:gap-6 md:gap-4 gap-2 justify-center items-center text-[17px]">
@@ -39,7 +39,7 @@ export const Header = () => {
                
                  <div onClick={() => setMenuMobileOpen(!menuMobileOpen)} className={`bg-black/30  z-30 ${menuMobileOpen ? 'fixed top-0 left-0 right-0 h-screen' : 'hidden' }`}></div>
                 <div className={`bg-black/90 text-2xl font-bold border-l-2 border-amber-300 flex flex-col gap-13 absolute top-0 right-0 h-dvh z-40 transition-normal duration-100 ${menuMobileOpen ? 'w-[320px] p-10' : 'w-0 p-0 opacity-0'}`}>
-                    <Link href={'/'} onClick={() => setMenuMobileOpen(!menuMobileOpen)} className="text-3xl text-white font-notosans font-bold cursor-pointer">
+                    <Link href={'/'} onClick={() => setMenuMobileOpen(!menuMobileOpen)} className="text-3xl bg-gradient-to-r from-amber-300  to-amber-600 bg-clip-text text-transparent font-notosans font-bold cursor-pointer">
                         VisagismWeb
                     </Link>
                     

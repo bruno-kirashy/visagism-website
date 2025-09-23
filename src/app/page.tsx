@@ -15,17 +15,17 @@ const App = () => {
                 src="/Images/Home.jpg" alt="" 
                 />
                 
-                <h1 className="md:text-8xl text-4xl font-google-sans-code  text-center md:m-10 m-5 mx-2 z-20 cursor-pointer">
+                <h1 className="md:text-8xl text-4xl font-google-sans-code font-bold [text-shadow:2px_2px_20px_white] text-center md:m-10 m-5 mx-2 z-20 cursor-pointer">
                     Experience Timeless Beauty
                 </h1>
                 <p className="lg:w-5xl md:w-3xl md:text-2xl w-auto mx-2 text-center  z-20 cursor-pointer">
                     Discover a sanctuary where artistry meets rejuvenation. We craft bespoke experiences designed to enhance your natural radiance and leave you feeling uniquely you.
                 </p>
                 <div className="flex md:flex-row flex-col gap-6 m-15 z-20">
-                    <Link href={'/services'} className="md:text-[19px] text-center font-extrabold px-5 py-4 cursor-pointer bg-gradient-to-r from-amber-500 to-amber-300 rounded-md text-black  hover:scale-105 transition-all duration-500">
+                    <Link href={'/services'} className="md:text-[19px] text-center font-extrabold px-5 py-4 cursor-pointer shadow-2xl shadow-amber-300/40 bg-gradient-to-r from-amber-500 to-amber-300 rounded-md text-black  hover:scale-105 transition-all duration-500">
                         Explore Services
                     </Link>
-                    <Link href={'/contact'} className="md:text-[19px] text-center border-2 border-white rounded-md font-extrabold px-5 py-4 cursor-pointer text-white  hover:scale-105 transition-all duration-500">
+                    <Link href={'/contact'} className="md:text-[19px] text-center border-2 border-white shadow-2xl shadow-white/20 rounded-md font-extrabold px-5 py-4 cursor-pointer text-white  hover:scale-105 transition-all duration-500">
                         Book a Consultation
                     </Link>
                 </div>
