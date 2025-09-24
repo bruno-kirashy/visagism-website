@@ -4,7 +4,7 @@ import { OurServices } from "./components/OurServices";
 import { FeaturedStylist } from "./components/FeaturedStylist";
 import { BannerService } from "./components/BannerService";
 import { ClientTestimonais } from "./components/ClientTestimonais";
-
+import { Footer } from "../Components/Footer";
 
 const Services = () => {
     return (
@@ -20,6 +20,7 @@ const Services = () => {
             
             <ClientTestimonais/>
 
+            <Footer/>
         </section>
     )
 }
