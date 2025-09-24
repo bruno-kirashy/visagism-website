@@ -3,7 +3,7 @@ import { Header } from "@/app/Components/Header";
 import { OurServices } from "./components/OurServices";
 import { FeaturedStylist } from "./components/FeaturedStylist";
 import { BannerService } from "./components/BannerService";
-
+import { ClientTestimonais } from "./components/ClientTestimonais";
 
 
 const Services = () => {
@@ -15,10 +15,11 @@ const Services = () => {
             <BannerService/>
 
             <OurServices/>
-            
-            
+        
             <FeaturedStylist/>
             
+            <ClientTestimonais/>
+
         </section>
     )
 }
