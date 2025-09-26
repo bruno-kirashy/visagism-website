@@ -5,7 +5,7 @@ export const Footer = () => {
     return(
         <footer className="w-full flex flex-col items-center justify-center border-t border-gray-500/50">
             <div>
-                <nav className="flex max-w-5xl md:gap-60 gap-12 md:text-[18px] text-[11px] md:my-12 my-5">
+                <nav className="flex max-w-5xl md:gap-40 gap-12 md:text-[18px] text-[11px] md:my-12 my-5">
                     <Link 
                    className="text-gray-600"
                    href={'/'}> Home </Link>
@@ -27,9 +27,9 @@ export const Footer = () => {
                 <Instagram className="w-8 h-8 cursor-pointer" />
                 <Facebook className="w-8 h-8 cursor-pointer"/>
             </div>
-            <div className="flex items-center justify-center gap-1 mb-2 md:text-[15px] text-[10px]">
+            <div className="flex md:flex-wrap flex-col items-center justify-center gap-1 mb-2 md:text-[15px] text-[11px]">
                 <p className="text-gray-400">
-                    &copy; 2025 | Todos os direitos reservados. |
+                    &copy; 2025 | Todos os direitos reservados.
                     
                 </p>
                 <p className=" cursor-pointer text-blue-500 transition-all duration-300 p-1 border border-transparent hover:ml-4 hover:text-blue-400/100 hover:scale-105  hover:border-blue-500">
