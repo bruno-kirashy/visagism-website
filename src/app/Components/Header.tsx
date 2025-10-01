@@ -46,7 +46,7 @@ export const Header = () => {
                     <Link 
                     href="/"
                     onClick={() => handleClickClose()} className="flex items-center gap-3 cursor-pointer transition-all duration-300 hover:scale-110">
-                        <House className="scale-115" />  
+                        <House className="scale-100" />  
                         
                         Home
                     </Link>
@@ -54,7 +54,7 @@ export const Header = () => {
                     <Link 
                     href="/services"
                     onClick={() => handleClickClose()} className="flex items-center gap-3 cursor-pointer transition-all duration-300 hover:scale-110">
-                        <Sprout className="scale-115" /> 
+                        <Sprout className="scale-100" /> 
                         
                         Services
                     </Link>
@@ -62,7 +62,7 @@ export const Header = () => {
                     <Link 
                     href="/gallery"
                     onClick={() => handleClickClose()} className="flex items-center gap-3 cursor-pointer transition-all duration-300 hover:scale-110">
-                        <Camera className="scale-115" /> 
+                        <Camera className="scale-100" /> 
                         
                         Gallery
                     </Link>
@@ -70,7 +70,7 @@ export const Header = () => {
                     <Link 
                     href="/about"
                     onClick={() => handleClickClose()} className="flex items-center gap-3 cursor-pointer transition-all duration-300 hover:scale-110">
-                        <Info className="scale-115" /> 
+                        <Info className="scale-100" /> 
                         
                         About
                     </Link>
@@ -78,7 +78,7 @@ export const Header = () => {
                     <Link 
                     href="/contact"
                     onClick={() => handleClickClose()} className="flex items-center gap-3 cursor-pointer transition-all duration-300 hover:scale-110">
-                        <Calendar className="scale-115" /> 
+                        <Calendar className="scale-100" /> 
                         
                         Contact
                     </Link>
