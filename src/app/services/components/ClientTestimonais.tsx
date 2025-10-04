@@ -10,7 +10,8 @@ export const ClientTestimonais = () => {
             
             { clientTestimonais.map((item, index) => (
                 
-                <div
+                <div 
+                className="border-b border-amber-50/20 rounded-2xl px-8 mb-2"
                 key={index}
                     >
                     <div className="flex items-center my-5">
