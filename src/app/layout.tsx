@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans, Google_Sans_Code } from "next/font/google";
 import "./globals.css";
 import { Header } from "./Components/Header";
-import { ConditionalFooter } from "./Components/conditionalFooter";
+import { ConditionalFooter } from "./Components/ConditionalFooter";
 
 const notoSans = Noto_Sans({
   variable: "--font-notosans",
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`flex flex-col min-h-screen ${
+        className={`${
           (notoSans.variable, googleSansCode.variable)
         } ${(notoSans.variable, googleSansCode.variable)} antialiased`}
       >
